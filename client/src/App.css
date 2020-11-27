@@ -1,0 +1,14 @@
+button{
+  margin: 10px;
+}
+nav{
+  padding: 0 2rem;
+}
+.link:hover{
+  color:white !important;
+}
+.loader{
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
