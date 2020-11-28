@@ -24,3 +24,15 @@ font-size: 2em;
   text-align: center;
   font-size: 1.75em;
 }
+
+@media (min-width:970px){
+  .row .col.s8 {
+    width: 50% !important;
+}
+
+.row .col.offset-s2 {
+
+    margin-left: 25%;
+
+}
+}

@@ -47,7 +47,7 @@ const AuthPage = () => {
     
     return (
         <div className="row">
-            <div className="col s6 offset-s3">
+            <div className="col s8 offset-s2">
                 <h1 className="title">ShortLinkSite</h1>
                 <h2 className="author">Табакман И.Д.</h2>
                 <h3 className="ikg">ИЭУИС 4-4</h3>
