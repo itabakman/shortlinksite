@@ -3,7 +3,8 @@ import { useMessage } from '../hooks/message.hook';
 import "./../App.css"
 import {useHttp} from "./../hooks/http.hook"
 import {AuthContext} from './../context/AuthContext'
-import { useHistory } from 'react-router-dom';
+import './../App.css'
+
 
 
 const AuthPage = () => {
@@ -47,8 +48,9 @@ const AuthPage = () => {
     return (
         <div className="row">
             <div className="col s6 offset-s3">
-                <h1>ShortLinkSite</h1>
-                <h2>Автор : Игорь Табакман ИЭУИС 4-4</h2>
+                <h1 className="title">ShortLinkSite</h1>
+                <h2 className="author">Табакман И.Д.</h2>
+                <h3 className="ikg">ИЭУИС 4-4</h3>
                 <div className="card blue-grey darken-1">
                     <div className="card-content white-text">
                         <span className="card-title">Авторизация</span>

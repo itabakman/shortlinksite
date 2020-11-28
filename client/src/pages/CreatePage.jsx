@@ -31,7 +31,7 @@ if(event.key==='Enter'){
             <div className="col s8 offset-s2">
             <div className="input-field ">
                             <input 
-                            placeholder="Введите E-mail" 
+                            placeholder="Вставьте ссылку" 
                             id="link" 
                             type="text"
                             name="email"
@@ -39,7 +39,7 @@ if(event.key==='Enter'){
                             onChange={e=> setLink(e.target.value)}
                             onKeyPress={pressHandler}>
                             </input>
-                            <label htmlFor="link">Введите ссылку</label>
+                            <label htmlFor="link">Вставьте ссылку</label>
                         </div>
                         
 

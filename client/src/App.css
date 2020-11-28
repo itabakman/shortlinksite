@@ -12,3 +12,15 @@ nav{
   justify-content: center;
   padding: 2rem;
 }
+.title{
+  text-align: center;
+  font-size: 2.5em;
+}
+.author{
+  text-align: center;
+font-size: 2em;
+}
+.ikg{
+  text-align: center;
+  font-size: 1.75em;
+}

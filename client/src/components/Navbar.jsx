@@ -1,6 +1,6 @@
 import React ,{ useContext } from 'react';
-import { BrowserRouter, NavLink} from 'react-router-dom'
 import { AuthContext } from '../context/AuthContext';
+import {NavLink} from 'react-router-dom'
 import "./../App.css"
 
 
@@ -18,7 +18,7 @@ export const Navbar = () => {
         
         <nav className="teal darken-4 black-text">
         <div className="nav-wrapper black-text ">
-          <span  className="brand-logo grey-text ">Сокращение ссылок Автор : Игорь Табакман ИЭУИС 4-4</span>
+          <span  className="brand-logo grey-text ">Сокращение ссылок </span>
           <ul id="nav-mobile" className="right hide-on-med-and-down black-text">
             <li><NavLink to="/create" className="grey-text link">Создать</NavLink></li>
             <li><NavLink to="/links" className="grey-text link">Ссылки</NavLink></li>
